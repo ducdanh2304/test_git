@@ -1,4 +1,7 @@
-a = 10
-b = 12
-c = a + b
-print(c)
+def tinhtong (a,b):
+    c = a + b
+    return c
+
+a = 10 
+b = 20
+print(tinhtong(a,b))
